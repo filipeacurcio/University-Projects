@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP</string>
+    <string name="math_quiz">Math quiz</string>
+    <string name="criar_perfil">Criar Perfil</string>
+    <string name="iniciar_jogo">Começar Jogo</string>
+    <string name="sair">Sair</string>
+    <string name="tirar_foto">Tirar Foto</string>
+    <string name="modo_multiplayer">Modo Multijogador</string>
+    <string name="modo_1_jogador">Modo Um Jogador</string>
+    <string name="creditos">Créditos</string>
+    <string name="colaborador">Contributor</string>
+    <string name="Filipe_Acurcio">Filipe Acúrcio</string>
+    <string name="sandra_perdigao">Sandra Perdigão</string>
+    <string name="patricia_goncalves">Patricia Gonçalves</string>
+    <string name="amov_2022">AMOV 2022</string>
+    <string name="start">Começar…</string>
+    <string name="defaultValueTableGame">0</string>
+    <string name="defaultOperatorTableGame">+</string>
+    <string name="dialogBackTitle">Cofirme, por favor</string>
+    <string name="dialogDescription">Tem a certeza que quer sair?</string>
+    <string name="acertouJogo">acertou</string>
+    <string name="vezes_que_acertei">Vezes que acertou</string>
+    <string name="dialog_Yes">Sim</string>
+    <string name="dialog_No">Não</string>
+    <string name="Game_Closed">Fim do jogo</string>
+    <string name="Perfil_Sucess_saving">Imagem guardada com sucesso</string>
+    <string name="Perfil_Error_saving">Erro ao guardar a imagem</string>
+    <string name="time_left">Tempo restante</string>
+    <string name="top_scores">Melhores resultados</string>
+    <string name="top_1">Top 1</string>
+    <string name="top_2">Top 2</string>
+    <string name="top_3">Top 3</string>
+    <string name="top_4">Top 4</string>
+    <string name="top_5">Top 5</string>
+    <string name="client">Cliente</string>
+    <string name="servidor">Servidor</string>
+    <string name="No_internet">Sem ligação à internet</string>
+    <string name="pause_game">Parar</string>
+    <string name="continue_game">Continuar</string>
+    <string name="continue_game_title">Clique em continuar</string>
+    <string name="msg_ip_address">Endereço IP do Servidor: %s\nEspera por clientes…</string>
+    <string name="server_mode">Modo Servidor</string>
+    <string name="btn_emulator">Ligar ao emulador</string>
+    <string name="ask_ip">Enderço Ip do Servidor:</string>
+    <string name="client_mode">Modo Cliente</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="error_address">Endereço não reconhecido</string>
+    <string name="button_connect">Conectado</string>
+    <string name="next_level_description">A começar o próximo nível</string>
+    <string name="next_level_tite">Novo nível</string>
+    <string name="wait_level_description">A espera dos outros jogadores</string>
+    <string name="wait_level_tite">Acabou o nível</string>
+
+
+
+
+
+
+</resources>

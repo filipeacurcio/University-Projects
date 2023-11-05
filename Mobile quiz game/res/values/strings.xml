@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP</string>
+    <string name="math_quiz">Math quiz</string>
+    <string name="criar_perfil">Create Profile</string>
+    <string name="iniciar_jogo">Start Game</string>
+    <string name="sair">Leave</string>
+    <string name="tirar_foto">Take Photo</string>
+    <string name="modo_multiplayer">Mode Multiplayer</string>
+    <string name="modo_1_jogador">Mode Single Player</string>
+    <string name="creditos">Credits</string>
+    <string name="colaborador">Colaborator</string>
+    <string name="Filipe_Acurcio">Filipe Acúrcio</string>
+    <string name="sandra_perdigao">Sandra Perdigão</string>
+    <string name="patricia_goncalves">Patricia Gonçalves</string>
+    <string name="amov_2022">AMOV 2022</string>
+    <string name="start">Start…</string>
+    <string name="defaultValueTableGame">0</string>
+    <string name="defaultOperatorTableGame">+</string>
+    <string name="dialogBackTitle">Please confirm</string>
+    <string name="dialogDescription">Want to exit the app?</string>
+    <string name="acertouJogo">hit</string>
+    <string name="vezes_que_acertei">Times correct hit</string>
+    <string name="dialog_Yes">Yes</string>
+    <string name="dialog_No">No</string>
+    <string name="Game_Closed">Game Finished</string>
+    <string name="Perfil_Sucess_saving">"Image saved with success"</string>
+    <string name="Perfil_Error_saving">"Error during image saving"</string>
+    <string name="time_left">Time left</string>
+    <string name="top_scores">Top Scores</string>
+    <string name="top_1">Top 1</string>
+    <string name="top_2">Top 2</string>
+    <string name="top_3">Top 3</string>
+    <string name="top_4">Top 4</string>
+    <string name="top_5">Top 5</string>
+    <string name="client">Client</string>
+    <string name="servidor">Server</string>
+    <string name="No_internet">No internet connection</string>
+    <string name="pause_game">Pause</string>
+    <string name="continue_game">Continue</string>
+    <string name="continue_game_title">Click to continue</string>
+    <string name="msg_ip_address">Server IP address: %s\nWaiting for a client…</string>
+    <string name="server_mode">Server mode</string>
+    <string name="btn_emulator">Connect to emulator</string>
+    <string name="ask_ip">Server IP address:</string>
+    <string name="client_mode">Client mode</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="error_address">Address not recognized</string>
+    <string name="button_connect">Connect</string>
+    <string name="next_level_description">Next Level starting</string>
+    <string name="next_level_tite">New level</string>
+    <string name="wait_level_description">Waiting for other players</string>
+    <string name="wait_level_tite">Level finished</string>
+
+
+</resources>

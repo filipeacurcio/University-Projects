@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/outerLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="pt.isec.filipe.sandra.patricia.MainActivity">
+
+
+    <GridLayout
+        android:id="@+id/gdTable"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:columnCount="5"
+        android:rowCount="5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvTable0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable10"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable11"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable12"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable13"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable14"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable15"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable16"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable17"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable18"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable19"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable20"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable21"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable22"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable23"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_grey"
+            android:gravity="center"
+            android:text="@string/defaultOperatorTableGame"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvTable24"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:background="@color/background_orange"
+            android:gravity="center"
+            android:text="@string/defaultValueTableGame"
+            android:textAlignment="center" />
+
+
+    </GridLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f0e0d0"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gdTable">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0e0d0"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gdTable">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/vezes_que_acertei"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvMyWins"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/defaultValueTableGame" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/time_left"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvTimeLeft"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/defaultValueTableGame" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0e0d0"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gdTable">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/top_1"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvTop1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/defaultValueTableGame" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/top_2"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvTop2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/defaultValueTableGame" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f0e0d0"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/gdTable">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/top_3"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvTop3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/defaultValueTableGame" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/top_4"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/tvTop4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:text="@string/defaultValueTableGame" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f0e0d0"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gdTable">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/top_5"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tvTop5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="@string/defaultValueTableGame" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
