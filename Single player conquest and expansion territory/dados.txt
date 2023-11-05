@@ -1,0 +1,3 @@
+cria Mina 2
+cria Montanha 3
+
